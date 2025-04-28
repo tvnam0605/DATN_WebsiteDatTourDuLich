@@ -11,7 +11,7 @@
 ## Giới thiệu
 Dự án này bao gồm hai phần:
 
-- **Website đặt tour du lịch**: Xây dựng website bằng PHP thuần, cho phép người dùng tìm kiếm, đặt tour, quản lý thông tin cá nhân.
+- **Website đặt tour du lịch**: Xây dựng website bằng PHP Laravel, cho phép người dùng tìm kiếm, đặt tour, quản lý thông tin cá nhân.
 - **Hệ thống gợi ý tour du lịch**: Ứng dụng Flask API Python, gợi ý tour cho người dùng dựa trên sở thích, lịch sử tìm kiếm và đặt tour.
 
 Mục tiêu nhằm xây dựng hệ thống hỗ trợ trải nghiệm người dùng tốt hơn khi tham khảo và đặt tour du lịch.
@@ -47,7 +47,7 @@ Mục tiêu nhằm xây dựng hệ thống hỗ trợ trải nghiệm người 
 
 ## Hướng dẫn cài đặt
 
-### Clone repository:
+1. Clone repository:
 
   ```bash
   git clone https://github.com/tvnam0605/DATN_WebsiteDatTourDuLich.git
@@ -56,7 +56,7 @@ Mục tiêu nhằm xây dựng hệ thống hỗ trợ trải nghiệm người 
   cd recommendation
   ```
 
-# Tạo môi trường ảo
+2. Tạo môi trường ảo
   ```bash
   python -m venv venv
   
@@ -64,7 +64,7 @@ Mục tiêu nhằm xây dựng hệ thống hỗ trợ trải nghiệm người 
   venv\Scripts\activate       # Windows
   source venv/bin/activate    # Linux/Mac
   ```
-# Cài đặt các thư viện từ requirements.txt
+3. Cài đặt các thư viện từ requirements.txt
   ```bash
   pip install -r requirements.txt
   ```
